@@ -1,0 +1,17 @@
+{
+    "name": "URL Getter",
+    "description": "This extension get the URL of current tab and store in local chrome storage",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "author": "Hari Prasad",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "/images/icon.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ]
+}
